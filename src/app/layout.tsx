@@ -58,10 +58,14 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body
-        className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
+        className={cn(
+          inter.className,
+          "dark:bg-slate-900 dark:text-slate-400",
+          "font-dmsans font-light text-xl"
+        )}
       >
         <ThemeSwitcher />
-        <div className="min-h-screen">{children}</div>
+        <div className="min-h-screen max-w-3xl mx-auto">{children}</div>
         <Footer />
       </body>
     </html>

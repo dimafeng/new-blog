@@ -54,11 +54,18 @@ const config: Config = {
           css: {
             "max-width": "none",
             color: "#000",
-            p: {
-              "font-family": "serif",
-            },
+            // p: {
+            //   "font-family": "dmsans",
+            //   "font-weight": "300",
+            //   "font-style": "normal",
+            //   "font-size": "1.25rem",
+            // },
           },
         },
+      },
+      fontFamily: {
+        comfortaa: ["Comfortaa", "sans-serif"],
+        dmsans: ["DM Sans", "sans-serif"],
       },
     },
   },
